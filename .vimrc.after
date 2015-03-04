@@ -61,3 +61,5 @@ let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
+
+command! SortCSSBraceContents :g#\({\n\)\@<=#.,/}/sort
