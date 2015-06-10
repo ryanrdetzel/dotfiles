@@ -17,6 +17,7 @@ set incsearch     " show search matches as you type
 set history=1000         " remember more commands and search history
 set undolevels=1000      " use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
+syntax sync minlines=256
 
 set nobackup
 set noswapfile
